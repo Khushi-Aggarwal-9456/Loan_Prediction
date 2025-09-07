@@ -1,0 +1,225 @@
+body {
+    background-color: #549BAD;
+}
+
+.form {
+    text-align: center;
+}
+
+.loan_heading {
+    background-color: #83BDC0;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    margin: 2%;
+    margin-left: 17%;
+    margin-right: 17%;
+    text-decoration: underline;
+    padding: .5%;
+    font-size: 40px;
+}
+
+.loanForm {
+    border-radius: 10px;
+    width: 90%;
+    height: fit-content;
+    margin: 1% auto;
+    /* padding: 1%; */
+    background-color: #83BDC0;
+}
+
+.loanForm .parent {
+    display: flex;
+    width: 98%;
+    margin: .5% auto;
+    /* border: 1px solid black; */
+}
+
+.loanForm .se {
+    /* border: 1px solid black; */
+    padding: 1%;
+    width: 49%;
+    margin-left: 1%;
+    /* margin: 1% auto; */
+}
+
+.loanForm .parent div {
+    padding: 1%;
+    /* border: 1px solid black; */
+    width: 90%;
+}
+
+.loanForm label {
+    font-size: 19px;
+    color: white;
+    font-weight: 600;
+    margin-top: 5px;
+
+}
+
+.loanForm div input {
+    width: 50%;
+    padding: 0.5% 3%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid white;
+
+}
+
+.loanForm div select {
+    width: 50%;
+    padding: 0.5% 3%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid white;
+
+}
+
+.loanForm .approvebutton {
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #549BAD;
+    color: white;
+    margin-bottom: 20px;
+    border: 4px solid #378da3;
+    font-weight: bolder;
+}
+
+@media(min-width : 350px) {
+    .loan_heading {
+        margin: 2%;
+        text-decoration: underline;
+        padding: .5%;
+        font-size: 23px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 2%;
+    }
+
+    .loanForm {
+        border-radius: 10px;
+        width: 95%;
+        height: fit-content;
+        margin: 1% auto;
+        /* padding: 1%; */
+        background-color: #83BDC0;
+    }
+
+    .loanForm .parent {
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+    }
+
+    .loanForm .parent div {
+        /* border: 1px solid black; */
+        width: 98%;
+    }
+
+    .loanForm .parent div label {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .loanForm .se {
+        /* border: 1px solid black; */
+        padding: 1%;
+        width: 96%;
+        margin-left: 1%;
+        /* margin: 1% auto; */
+    }
+
+    .loanForm .se label {
+        font-size: 13px;
+    }
+
+    .loanForm .approvebutton {
+        width: 80%;
+        height: 45px;
+        border-radius: 5px;
+        background-color: #549BAD;
+        color: white;
+        margin-bottom: 20px;
+        border: 4px solid #378da3;
+        font-weight: bolder;
+        margin-top: 1%;
+    }
+}
+
+@media(min-width : 650px) {
+    .loan_heading {
+        margin: 2%;
+        text-decoration: underline;
+        padding: .5%;
+        font-size: 23px;
+        margin-top: 10%;
+    }
+
+    .loanForm .parent {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media(min-width : 900px) {
+    .loan_heading {
+        margin: 2%;
+        margin-left: 17%;
+        margin-right: 17%;
+        text-decoration: underline;
+        padding: .5%;
+        font-size: 40px;
+    }
+
+    .loanForm {
+        border-radius: 10px;
+        width: 90%;
+        height: fit-content;
+        margin: 1% auto;
+        /* padding: 1%; */
+        background-color: #83BDC0;
+    }
+
+    .loanForm .parent {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .loanForm .parent div {
+        /* border: 1px solid black; */
+        width: 90%;
+    }
+
+    .loanForm .parent div label {
+        font-size: 19px;
+        margin-top: 5px;
+    }
+
+    .loanForm .se {
+        /* border: 1px solid black; */
+        padding: 1%;
+        width: 49%;
+        margin-left: 1%;
+        /* margin: 1% auto; */
+    }
+
+    .loanForm .se label {
+        font-size: 19px;
+    }
+
+    .loanForm .approvebutton {
+        width: 20%;
+        height: 45px;
+        border-radius: 5px;
+        background-color: #549BAD;
+        color: white;
+        margin-bottom: 20px;
+        border: 4px solid #378da3;
+        font-weight: bolder;
+        margin-top: 1%;
+    }
+}
