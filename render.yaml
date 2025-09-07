@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: loan_prediction
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn model:app
+    plan: free
